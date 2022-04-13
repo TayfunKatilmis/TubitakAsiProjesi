@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="Entities\Concrete\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="CrossCuttingConserns\" />
+    <Folder Include="Aspects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11" />
+  </ItemGroup>
+
 </Project>

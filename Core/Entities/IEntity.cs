@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Business.Concrete
+namespace Core.Entities
 {
-    public class SoruImageManager
+    public interface IEntity
     {
     }
 }

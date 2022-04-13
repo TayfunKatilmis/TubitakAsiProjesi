@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Business.Concrete
 {
-    class CevapManager
+    public class CevapManager
     {
     }
 }
