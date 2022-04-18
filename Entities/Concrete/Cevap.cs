@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Entities.Concrete
 {
-    public class Cevap
+    public class Cevap:IEntity
     {
         public int CevapId { get; set; }
         public string CevapAdi { get; set; }

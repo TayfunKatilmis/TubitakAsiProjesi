@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    public interface ICevapDal: IEntityRepository<Cevap>
+    public interface IAsiIcerikDal: IEntityRepository<AsiIcerik>
     {
     }
 }

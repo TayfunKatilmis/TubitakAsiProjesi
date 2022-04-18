@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Core.DataAccess;
+using Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DataAccess.Abstract
 {
-    public interface IAnasayfaDal
+    public interface IAnasayfaDal: IEntityRepository<Anasayfa>
     {
     }
 }
