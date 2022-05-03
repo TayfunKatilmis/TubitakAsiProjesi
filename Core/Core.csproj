@@ -6,12 +6,12 @@
 
   <ItemGroup>
     <Folder Include="Entities\Concrete\" />
-    <Folder Include="Aspects\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CastleDynamicProxy.DependencyInjection" Version="0.1.0" />
     <PackageReference Include="FluentValidation" Version="10.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11" />
   </ItemGroup>
 
